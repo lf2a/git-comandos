@@ -14,3 +14,9 @@ $ git config --global user.email "luizfilipy.aa@outlook.com"
 ```bash
 $ git config --list
 ```
+
+# Historico dos commits
+
+```bash
+$ git log --oneline
+```
