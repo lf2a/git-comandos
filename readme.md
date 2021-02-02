@@ -20,3 +20,9 @@ $ git config --list
 ```bash
 $ git log --oneline
 ```
+
+# Vendo commits anteriores
+
+```bash
+$ git checkout <id-do-commit>
+```
