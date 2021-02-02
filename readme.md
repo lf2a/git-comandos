@@ -26,3 +26,8 @@ $ git log --oneline
 ```bash
 $ git checkout <id-do-commit>
 ```
+
+### Para voltar no ultimo commit
+```bash
+$ git checkout master
+```
