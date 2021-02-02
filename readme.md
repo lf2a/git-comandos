@@ -31,3 +31,13 @@ $ git checkout <id-do-commit>
 ```bash
 $ git checkout master
 ```
+
+### Para voltar no ultimo commit (arquivo - serve tambem caso o arquivo tenha sido excluido acidentalmente)
+```bash
+$ git checkout <arquivo>
+```
+
+### Para voltar no ultimo commit (todos os arquivos de uma só vez - serve tambem caso os arquivos tenham sido excluidos acidentalmente)
+```bash
+$ git reset --hard
+```
