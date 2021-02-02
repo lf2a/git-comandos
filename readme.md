@@ -41,3 +41,10 @@ $ git checkout <arquivo>
 ```bash
 $ git reset --hard
 ```
+
+# arquivos não rastreados
+
+### Removendo arquivos não rastreados
+```bash
+$ git clean -f
+```
