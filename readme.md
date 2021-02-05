@@ -58,3 +58,8 @@ $ git config --global alias.<alias-escolhido> <comando>
 ```bash
 $ git config --global --unset alias.<alias-escolhido>
 ```
+
+# Ver todas as urls dos repositorios
+```bash
+$ git remote -v
+```
