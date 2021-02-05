@@ -48,3 +48,13 @@ $ git reset --hard
 ```bash
 $ git clean -f
 ```
+
+# Definindo um alias
+```bash
+$ git config --global alias.<alias-escolhido> <comando>
+```
+
+## Removendo um alias
+```bash
+$ git config --global --unset alias.<alias-escolhido>
+```
