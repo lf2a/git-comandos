@@ -135,3 +135,11 @@ $ git branch -m <branch>
 ```
 
 > Para "renomear" no servidor é preciso apagar (antes disso verificar se a branch a ser apagada sofreu alterações) a branch com o nome antigo, criar a branch com o novo nome e enviar a branch com o novo nome para o servidor.
+
+## Mesclando branch
+
+> Irá trazer as mudanças da **\<branch\>** para a branch atual.
+
+```bash
+$ git merge <branch>
+```
