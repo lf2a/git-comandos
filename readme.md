@@ -190,3 +190,45 @@ $ git tag -a <tag> -m "<mensagem>"
 ```bash
 $ git tag -a <tag> <sha-commit>
 ```
+
+# Guardando mudanças na memoria
+
+```bash
+$ git stash
+```
+
+##### ou
+```bash
+$ git stash save "<mensagem>"
+```
+
+## Listando as mudancas
+
+```bash
+$ git stash list
+```
+
+## Usando stash
+
+> `git stash apply` sempre pega o stash mais recente
+
+```bash
+$ git stash apply
+```
+
+> Pega o mais recente stash e o remove
+
+```bash
+$ git stash pop
+```
+
+> Pega um stash especifico e o remove
+
+```bash
+$ git stash pop stash@{<numero-stash>}
+```
+
+## Removendo stash
+```bash
+$ git stash drop stash@{<numero-stash>}
+```
