@@ -85,3 +85,53 @@ $ git checkout <branch>
 ```bash
 $ git checkout -b <branch>
 ```
+
+## Enviando uma brach para o servidor
+> **\<branch\>** a branch precisa ser cria no servidor para poder então envia-la da máquina local para o servidor 
+
+```bash
+$ git push --set-upstream origin <branch>
+```
+
+##### Versão reduzida
+```bash
+$ git push -u origin <branch>
+```
+
+## Atualizando o repositorio local com as alterações que estão no sevidor
+```bash
+$ git pull
+```
+
+## Removendo branch (localmente)
+
+> Não é possivel apagar a branch ativa
+
+```bash
+$ git branch -d <branch>
+```
+
+##### Forçando a exclusão da branch
+```bash
+$ git checkout -D <branch>
+```
+
+## Removendo branch (no servidor)
+```bash
+$ git push --delete origin <branch>
+```
+
+## Renomeando branch
+
+```bash
+$ git branch -m <branch-alvo> <branch-novo-nome>
+```
+<br>
+
+> Irá renomear sua branch que está ativa
+
+```bash
+$ git branch -m <branch>
+```
+
+> Para "renomear" no servidor é preciso apagar (antes disso verificar se a branch a ser apagada sofreu alterações) a branch com o nome antigo, criar a branch com o novo nome e enviar a branch com o novo nome para o servidor.
