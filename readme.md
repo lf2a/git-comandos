@@ -232,3 +232,16 @@ $ git stash pop stash@{<numero-stash>}
 ```bash
 $ git stash drop stash@{<numero-stash>}
 ```
+
+# Desfazendo commit
+
+> **\<numero\>** Numero de commits a voltar. Por exemplo, fiz 2 commits errados entao será: `git reset --hard HEAD~2`. Os commits feitos serão perdidos! 
+
+```bash
+$ git reset --hard HEAD~<numero>
+```
+
+## Colando alterações em um commit já feito
+```bash
+$ git commit --amend
+```
