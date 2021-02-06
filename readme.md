@@ -143,3 +143,50 @@ $ git branch -m <branch>
 ```bash
 $ git merge <branch>
 ```
+
+# Tags
+
+## Criando tags
+```bash
+$ git tag -a <tag> -m "<mensagem>"
+```
+
+## Listando tags
+```bash
+$ git tag
+```
+
+## Enviando tag para o repositorio remoto
+```bash
+$ git push origin <tag>
+```
+
+## Usando tag
+```bash
+$ git checkout <tag>
+```
+
+## Removendo tag
+
+#### Localmente
+```bash
+$ git tag -d <tag>
+```
+
+#### No servidor
+```bash
+$ git push --delete origin <tag>
+```
+
+## Criando tag em commit especifico
+
+> Para criar uma tag em um commit especifico use `git checkout` e depois crie a tag.
+
+```bash
+$ git tag -a <tag> -m "<mensagem>"
+```
+
+##### Outra forma
+```bash
+$ git tag -a <tag> <sha-commit>
+```
