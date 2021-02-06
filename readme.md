@@ -63,3 +63,25 @@ $ git config --global --unset alias.<alias-escolhido>
 ```bash
 $ git remote -v
 ```
+
+# Manipulando branches
+
+## Listando todas as branches
+```bash
+$ git branch
+```
+
+## Criando uma branch
+```bash
+$ git branch <branch>
+```
+
+## Trocando de branch
+```bash
+$ git checkout <branch>
+```
+
+## Criando uma branch e trocando para a mesma simultaneamente
+```bash
+$ git checkout -b <branch>
+```
